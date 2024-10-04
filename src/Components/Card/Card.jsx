@@ -38,7 +38,7 @@ const Card = ({
     )
   }
   return (
-    <div className="card-container w-[80%] mt-[100px] flex flex-wrap gap-10 mx-auto">
+    <div className="card-container w-[80%] mt-[100px] flex flex-wrap gap-10 flex-1 flex-shrink mx-auto">
       {products.map((item) => {
         return (
           <div
